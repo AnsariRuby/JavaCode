@@ -1,4 +1,4 @@
-package Methods;
+package Learn_Java.Java_Basics.Methods;
 
 public class Introduction_01 {
     static void main(String[] args) {
