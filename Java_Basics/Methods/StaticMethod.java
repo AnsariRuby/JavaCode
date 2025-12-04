@@ -51,6 +51,10 @@ public class StaticMethod {
             Non-static data members or non-static methods cannot be used by static methods, and static methods cannot call non-static methods directly.
             In a static environment, this and super are not allowed to be used.
         * */
+
+
+
+        // Calling an Abstract Method: abstract methods have no body and must be overridden in a subclass. They are called using an object of the subclass.
     }
 
     static int num = 100;
