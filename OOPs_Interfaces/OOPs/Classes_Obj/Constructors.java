@@ -50,6 +50,30 @@ public class Constructors {
         System.out.println("Copy Constructor used Second Object");
         System.out.println("GeekName : " + geek2.name + " and GeekId : " + geek2.id);
 
+        // Constructor Overloading
+        // Java supports Constructor Overloading in addition to overloading methods.
+        // In Java, overloaded constructor is called based on the parameters specified when a new is executed.
 
+        Box box1 = new Box();
+        Box box2 = new Box(5);
+        Box box3 = new Box(2, 4, 6, 2);
+        Box box4 = new Box(box2);
+        Box box5 = new Box(3);
+        double vol;
+
+        vol = box1.volume();
+        System.out.println("Volume of box1 is " + vol);
+
+        vol = box2.volume();
+        System.out.println("Volume of box2 is " + vol);
+
+        vol = box3.volume();
+        System.out.println("Volume of box3 is " + vol);
+
+        vol = box4.volume();
+        System.out.println("Volume of box4 is " + vol);
+
+        vol = box5.volume();
+        System.out.println("Volume of box5 is " + vol);
     }
 }
