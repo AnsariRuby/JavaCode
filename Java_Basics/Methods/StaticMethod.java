@@ -40,6 +40,17 @@ public class StaticMethod {
 //        StaticMethod.staticDisplay();
 
         obj.nonStatic();
+
+
+        /*
+        * Why Use Static Methods?
+            To access or modify static variables or perform actions not tied to any instance.
+            Useful for utility or helper classes like Collections, Math, etc.
+
+        * Restrictions on Static Methods
+            Non-static data members or non-static methods cannot be used by static methods, and static methods cannot call non-static methods directly.
+            In a static environment, this and super are not allowed to be used.
+        * */
     }
 
     static int num = 100;
